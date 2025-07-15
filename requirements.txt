@@ -1,0 +1,8 @@
+pytesseract
+pillow
+python-docx
+PyMuPDF
+beautifulsoup4
+playwright
+google-generativeai
+python-dotenv
