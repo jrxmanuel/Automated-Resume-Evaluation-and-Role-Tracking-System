@@ -8,12 +8,8 @@ from docx import Document
 import google.generativeai as genai
 from WebScraper import main as scrape_main
 
-load_dotenv()  # ✅ This loads environment variables
-
-# ✅ Get API key from .env
+load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
-
-# ✅ Configure Gemini with the loaded key
 genai.configure(api_key=api_key)
 
 # ==== Extract resume text ====

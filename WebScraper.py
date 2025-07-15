@@ -193,7 +193,7 @@ async def main(job_role, max_jobs):
             f.write(f"Company: {job['company']}\n")
             f.write(f"Title: {job['job_title']}\n")
             f.write(f"Description: {job['job_description']}\n\n")
-    print(f"✅ Saved {len(all_jobs_data)} jobs to {txt_filename}")
+    print(f"Saved {len(all_jobs_data)} jobs to {txt_filename}")
 
     # Save CSV
     csv_filename = os.path.join(output_dir, f"jobstreet_{job_role_clean}_{len(all_jobs_data)}_data.csv")
@@ -223,7 +223,7 @@ async def main(job_role, max_jobs):
                 "Max Salary": job["max_salary"],
                 "Average Salary": avg_salary
             })
-    print(f"📄 Saved CSV to {csv_filename} 🎉")
+    print(f"Saved CSV to {csv_filename}")
 
 # Usage from another script:
 # asyncio.run(main("Data Analyst", 50))
