@@ -29,7 +29,9 @@ This system automatically analyzes a resume, recommends job roles that match the
 $ py main.py
 
 Enter the full path to your resume file (PDF, DOCX, JPG, PNG): C:\Users\...\resume1.jpg
+
 Extracting resume text...
+
 Analyzing resume to suggest job roles...
 
 Suggested Job Roles:
@@ -43,20 +45,27 @@ Here are 5 job roles that match the candidate's skills and background:
 5. Business Intelligence Analyst
 
 Select a job role number from the list above (e.g., 1): 2
+
 Enter the number of job listings to scrape: 10
 
 Starting job scraping for 'Data Analyst' (10 listings)...
 
 Step 1: Collecting job links from search results...
+
 Page 1: 10 jobs collected
 
 Step 2: Scraping 10 job descriptions...
+
 Scraped 10 descriptions in 17.73s
+
 Saved 10 jobs to data\jobstreet_data-analyst_jobs.txt
+
 Saved CSV to data\jobstreet_data-analyst_10_data.csv
 
 Reading job listings from: data/jobstreet_data-analyst_jobs.txt
+
 Ranking jobs based on your resume...
+
 Analyzing 10 job listings...
 
 Job Matches Based on Your Resume:
