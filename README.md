@@ -26,6 +26,7 @@ This system automatically analyzes a resume, recommends job roles that match the
 4. Run the program
 
 ## Example Usage
+$ py main.py
 
 Enter the full path to your resume file (PDF, DOCX, JPG, PNG): C:\Users\...\resume1.jpg
 Extracting resume text...
