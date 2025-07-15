@@ -55,8 +55,8 @@ Page 1: 10 jobs collected
 
 Step 2: Scraping 10 job descriptions...
 Scraped 10 descriptions in 17.73s
-✅ Saved 10 jobs to data\jobstreet_data-analyst_jobs.txt
-📄 Saved CSV to data\jobstreet_data-analyst_10_data.csv 🎉
+Saved 10 jobs to data\jobstreet_data-analyst_jobs.txt
+Saved CSV to data\jobstreet_data-analyst_10_data.csv 
 
 Reading job listings from: data/jobstreet_data-analyst_jobs.txt
 Ranking jobs based on your resume...
