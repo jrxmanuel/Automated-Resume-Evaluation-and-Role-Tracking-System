@@ -48,10 +48,13 @@ Here are 5 job roles that match the candidate's skills and background:
 5. Business Intelligence Analyst
 
 Select a job role number from the list above (e.g., 1): 2
+
 Enter the number of job listings to scrape: 10
 
 Starting job scraping for 'Data Analyst' (10 listings)...
+
 Step 1: Collecting job links from search results...
+
 Page 1: 10 jobs collected
 
 Step 2: Scraping 10 job descriptions...
